@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		373BB27C1ABA533100899CE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BB27B1ABA533100899CE3 /* AppDelegate.swift */; };
+		373BB27E1ABA533100899CE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BB27D1ABA533100899CE3 /* ViewController.swift */; };
+		373BB2811ABA533100899CE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373BB27F1ABA533100899CE3 /* Main.storyboard */; };
+		373BB2831ABA533100899CE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373BB2821ABA533100899CE3 /* Images.xcassets */; };
+		373BB2861ABA533100899CE3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 373BB2841ABA533100899CE3 /* LaunchScreen.xib */; };
+		373BB2921ABA533100899CE3 /* FlyDanaAirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BB2911ABA533100899CE3 /* FlyDanaAirTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		373BB28C1ABA533100899CE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 373BB26E1ABA533100899CE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 373BB2751ABA533100899CE3;
+			remoteInfo = FlyDanaAir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		373BB2761ABA533100899CE3 /* FlyDanaAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyDanaAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		373BB27A1ABA533100899CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373BB27B1ABA533100899CE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		373BB27D1ABA533100899CE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		373BB2801ABA533100899CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		373BB2821ABA533100899CE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		373BB2851ABA533100899CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		373BB28B1ABA533100899CE3 /* FlyDanaAirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyDanaAirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		373BB2901ABA533100899CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373BB2911ABA533100899CE3 /* FlyDanaAirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyDanaAirTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		373BB2731ABA533100899CE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373BB2881ABA533100899CE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		373BB26D1ABA533100899CE3 = {
+			isa = PBXGroup;
+			children = (
+				373BB2781ABA533100899CE3 /* FlyDanaAir */,
+				373BB28E1ABA533100899CE3 /* FlyDanaAirTests */,
+				373BB2771ABA533100899CE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		373BB2771ABA533100899CE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				373BB2761ABA533100899CE3 /* FlyDanaAir.app */,
+				373BB28B1ABA533100899CE3 /* FlyDanaAirTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		373BB2781ABA533100899CE3 /* FlyDanaAir */ = {
+			isa = PBXGroup;
+			children = (
+				373BB27B1ABA533100899CE3 /* AppDelegate.swift */,
+				373BB27D1ABA533100899CE3 /* ViewController.swift */,
+				373BB27F1ABA533100899CE3 /* Main.storyboard */,
+				373BB2821ABA533100899CE3 /* Images.xcassets */,
+				373BB2841ABA533100899CE3 /* LaunchScreen.xib */,
+				373BB2791ABA533100899CE3 /* Supporting Files */,
+			);
+			path = FlyDanaAir;
+			sourceTree = "<group>";
+		};
+		373BB2791ABA533100899CE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				373BB27A1ABA533100899CE3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		373BB28E1ABA533100899CE3 /* FlyDanaAirTests */ = {
+			isa = PBXGroup;
+			children = (
+				373BB2911ABA533100899CE3 /* FlyDanaAirTests.swift */,
+				373BB28F1ABA533100899CE3 /* Supporting Files */,
+			);
+			path = FlyDanaAirTests;
+			sourceTree = "<group>";
+		};
+		373BB28F1ABA533100899CE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				373BB2901ABA533100899CE3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		373BB2751ABA533100899CE3 /* FlyDanaAir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373BB2951ABA533100899CE3 /* Build configuration list for PBXNativeTarget "FlyDanaAir" */;
+			buildPhases = (
+				373BB2721ABA533100899CE3 /* Sources */,
+				373BB2731ABA533100899CE3 /* Frameworks */,
+				373BB2741ABA533100899CE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyDanaAir;
+			productName = FlyDanaAir;
+			productReference = 373BB2761ABA533100899CE3 /* FlyDanaAir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		373BB28A1ABA533100899CE3 /* FlyDanaAirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373BB2981ABA533100899CE3 /* Build configuration list for PBXNativeTarget "FlyDanaAirTests" */;
+			buildPhases = (
+				373BB2871ABA533100899CE3 /* Sources */,
+				373BB2881ABA533100899CE3 /* Frameworks */,
+				373BB2891ABA533100899CE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				373BB28D1ABA533100899CE3 /* PBXTargetDependency */,
+			);
+			name = FlyDanaAirTests;
+			productName = FlyDanaAirTests;
+			productReference = 373BB28B1ABA533100899CE3 /* FlyDanaAirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		373BB26E1ABA533100899CE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = HappyFlames;
+				TargetAttributes = {
+					373BB2751ABA533100899CE3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					373BB28A1ABA533100899CE3 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 373BB2751ABA533100899CE3;
+					};
+				};
+			};
+			buildConfigurationList = 373BB2711ABA533100899CE3 /* Build configuration list for PBXProject "FlyDanaAir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 373BB26D1ABA533100899CE3;
+			productRefGroup = 373BB2771ABA533100899CE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				373BB2751ABA533100899CE3 /* FlyDanaAir */,
+				373BB28A1ABA533100899CE3 /* FlyDanaAirTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		373BB2741ABA533100899CE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373BB2811ABA533100899CE3 /* Main.storyboard in Resources */,
+				373BB2861ABA533100899CE3 /* LaunchScreen.xib in Resources */,
+				373BB2831ABA533100899CE3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373BB2891ABA533100899CE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		373BB2721ABA533100899CE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373BB27E1ABA533100899CE3 /* ViewController.swift in Sources */,
+				373BB27C1ABA533100899CE3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373BB2871ABA533100899CE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373BB2921ABA533100899CE3 /* FlyDanaAirTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		373BB28D1ABA533100899CE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 373BB2751ABA533100899CE3 /* FlyDanaAir */;
+			targetProxy = 373BB28C1ABA533100899CE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		373BB27F1ABA533100899CE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373BB2801ABA533100899CE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		373BB2841ABA533100899CE3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373BB2851ABA533100899CE3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		373BB2931ABA533100899CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		373BB2941ABA533100899CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		373BB2961ABA533100899CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyDanaAir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		373BB2971ABA533100899CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyDanaAir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		373BB2991ABA533100899CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlyDanaAirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyDanaAir.app/FlyDanaAir";
+			};
+			name = Debug;
+		};
+		373BB29A1ABA533100899CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlyDanaAirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyDanaAir.app/FlyDanaAir";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		373BB2711ABA533100899CE3 /* Build configuration list for PBXProject "FlyDanaAir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373BB2931ABA533100899CE3 /* Debug */,
+				373BB2941ABA533100899CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373BB2951ABA533100899CE3 /* Build configuration list for PBXNativeTarget "FlyDanaAir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373BB2961ABA533100899CE3 /* Debug */,
+				373BB2971ABA533100899CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373BB2981ABA533100899CE3 /* Build configuration list for PBXNativeTarget "FlyDanaAirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373BB2991ABA533100899CE3 /* Debug */,
+				373BB29A1ABA533100899CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 373BB26E1ABA533100899CE3 /* Project object */;
+}
