@@ -11,6 +11,19 @@ import UIKit
 class ViewController: UIViewController, UIWebViewDelegate, NSURLConnectionDelegate {
     
 
+//    
+//    func connection(connection: NSURLConnection, willSendRequestForAuthenticationChallenge challenge: NSURLAuthenticationChallenge) {
+//        
+//        
+//        println("Webcontroller got auth challenge via nsurlconnection")
+//        
+//        if (challenge.previousFailureCount == 0)
+//        {
+//            var credential = NSURLCredential(forTrust: challenge.protectionSpace.serverTrust)
+//        }
+//        
+//    }
+
     
 
     @IBOutlet weak var Webview: UIWebView!
