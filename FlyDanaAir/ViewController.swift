@@ -13,6 +13,7 @@ class ViewController: UIViewController, UIWebViewDelegate, NSURLConnectionDelega
     //I made some changes to this file
     //I will commit this file
     //the i will push it to the remote repo
+    //making this change to produce a merge confict
     
 
     @IBOutlet weak var Webview: UIWebView!
